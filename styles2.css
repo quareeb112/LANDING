@@ -1,0 +1,29 @@
+/* Styling for the container */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Styling for the color box */
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: #333; /* Default color */
+  margin: 20px auto;
+  border: 2px solid #000;
+}
+
+/* Styling for the button */
+#change-color-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#change-color-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
